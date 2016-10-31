@@ -46,6 +46,11 @@ catch (Exception $e) {
 ?>
 <html>
 <head>
+    <div class="w3-container w3-orange">
+     <h1><center>Database Processing</center></h1>
+     <h2><center>Homework-2</center></h2>
+    </div>
+    </div>
 	<title>The search box</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> 
@@ -66,7 +71,7 @@ catch (Exception $e) {
 					<div class="alert alert-info"><span class="glyphicon glyphicon-time"></span> <span id="query-time">Type in the search box</span></div>
                     <div class="alert alert-warning" style="display:none;" role="alert">
                          <span class="glyphicon glyphicon-remove"></span>
-                         No Products Found
+                         OOPS! No Products Found
                     </div>
 					<table class="table table-bordered" style="display:none;">
 						<thead>
